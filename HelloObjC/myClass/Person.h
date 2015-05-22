@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AnimalDelegate.h"
 
-@interface Person : NSObject
+@interface Person : NSObject<AnimalDelegate>
 {
 
     @private
@@ -40,4 +41,6 @@
 -(void)setName:(NSString *)name;
 -(void)showMessage:(NSString *)message;
 -(void)printInfo;
+
+-(void)eat;
 @end

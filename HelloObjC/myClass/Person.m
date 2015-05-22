@@ -45,5 +45,8 @@
 -(NSString *)description{
     return [NSString stringWithFormat:@"This is %@ . Age is %d.",self.name,self.age];
 }
+-(void)eat{
+    NSLog(@"I'm %@.I'm eating.....",self.name);
+}
 
 @end

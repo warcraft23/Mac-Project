@@ -9,14 +9,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "myClass/Person.h"
-            timestampString = "442736620.899232"
+            filePath = "dictDemo/main.m"
+            timestampString = "444818082.131986"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "-setName:"
-            landmarkType = "4">
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "test2()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

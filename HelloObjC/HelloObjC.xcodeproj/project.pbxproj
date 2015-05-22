@@ -10,6 +10,8 @@
 		2B82E8031A5D88B300B0FE4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B82E8021A5D88B300B0FE4A /* main.m */; };
 		2B82E80E1A5D8FA600B0FE4A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B82E80D1A5D8FA600B0FE4A /* Person.m */; };
 		2B82E8111A5E21D000B0FE4A /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B82E8101A5E21D000B0FE4A /* Student.m */; };
+		2BAC4FBC1A641C0C00F52B79 /* KCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAC4FBB1A641C0C00F52B79 /* KCButton.m */; };
+		2BAC4FBF1A64F59C00F52B79 /* MyListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAC4FBE1A64F59C00F52B79 /* MyListener.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,11 @@
 		2B82E80D1A5D8FA600B0FE4A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = myClass/Person.m; sourceTree = "<group>"; };
 		2B82E80F1A5E21D000B0FE4A /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Student.h; path = myClass/Student.h; sourceTree = "<group>"; };
 		2B82E8101A5E21D000B0FE4A /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = myClass/Student.m; sourceTree = "<group>"; };
+		2BAC4FB91A6376E300F52B79 /* AnimalDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimalDelegate.h; sourceTree = "<group>"; };
+		2BAC4FBA1A641C0C00F52B79 /* KCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KCButton.h; path = myClass/KCButton.h; sourceTree = SOURCE_ROOT; };
+		2BAC4FBB1A641C0C00F52B79 /* KCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KCButton.m; path = myClass/KCButton.m; sourceTree = SOURCE_ROOT; };
+		2BAC4FBD1A64F59C00F52B79 /* MyListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyListener.h; path = myClass/MyListener.h; sourceTree = "<group>"; };
+		2BAC4FBE1A64F59C00F52B79 /* MyListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyListener.m; path = myClass/MyListener.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +56,13 @@
 			children = (
 				2B82E80C1A5D8FA600B0FE4A /* Person.h */,
 				2B82E80D1A5D8FA600B0FE4A /* Person.m */,
+				2BAC4FBA1A641C0C00F52B79 /* KCButton.h */,
+				2BAC4FBB1A641C0C00F52B79 /* KCButton.m */,
+				2BAC4FBD1A64F59C00F52B79 /* MyListener.h */,
+				2BAC4FBE1A64F59C00F52B79 /* MyListener.m */,
 				2B82E80F1A5E21D000B0FE4A /* Student.h */,
 				2B82E8101A5E21D000B0FE4A /* Student.m */,
+				2BAC4FB91A6376E300F52B79 /* AnimalDelegate.h */,
 				2B82E8011A5D88B300B0FE4A /* HelloObjC */,
 				2B82E8001A5D88B300B0FE4A /* Products */,
 			);
@@ -128,9 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BAC4FBF1A64F59C00F52B79 /* MyListener.m in Sources */,
 				2B82E80E1A5D8FA600B0FE4A /* Person.m in Sources */,
 				2B82E8031A5D88B300B0FE4A /* main.m in Sources */,
 				2B82E8111A5E21D000B0FE4A /* Student.m in Sources */,
+				2BAC4FBC1A641C0C00F52B79 /* KCButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +228,7 @@
 		2B82E8071A5D88B300B0FE4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -221,6 +236,7 @@
 		2B82E8081A5D88B300B0FE4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -244,6 +260,7 @@
 				2B82E8081A5D88B300B0FE4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
